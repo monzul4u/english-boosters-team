@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button, Card, Container } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import { useHistory } from 'react-router';
-import container from 'react-bootstrap';
+
 
 const Team = (props) => {
     const { strTeam, strSport, strTeamLogo, idTeam } = props.tm;
