@@ -9,6 +9,8 @@ import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import TeamDetail from './components/TeamDetail/TeamDetail';
 import img1 from './images/bimages.jpg';
+import { useState } from 'react';
+
 
 function App() {
   return (
@@ -36,4 +38,9 @@ function App() {
   );
 }
 
+
+
 export default App;
+
+
+

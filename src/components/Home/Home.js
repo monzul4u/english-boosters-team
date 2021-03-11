@@ -13,7 +13,7 @@ const Home = () => {
         .then(data => setTeam(data.teams))
     },[])
     return (
-        <div>
+        <div className="row">
             
             {
                 team.map(tm => <Team tm={tm} ></Team> )
