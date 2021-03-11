@@ -43,12 +43,12 @@ const TeamDetail = () => {
                         <FaTwitter></FaTwitter>
                     </h2>
                 </a>
-                <a href={`https://${team.strFacebook}`} target="_blank">
+                <a href={`https://${team.strFacebook}`} target="_blank" rel="noreferrer">
                     <h2>
                     <FaFacebook></FaFacebook>
                     </h2>
                 </a>
-                <a href={`https://${team.strYoutube}`} target="_blank">
+                <a href={`https://${team.strYoutube}`} target="_blank" rel="noreferrer">
                     <h2>
                         <FaYoutube/>
                     </h2>
